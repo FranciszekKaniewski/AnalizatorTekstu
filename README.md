@@ -1,4 +1,4 @@
-# Alanlizator tekstu
+# Analizator tekstu
 
 ### 🛠 How to run
 1. Clone the repository:
