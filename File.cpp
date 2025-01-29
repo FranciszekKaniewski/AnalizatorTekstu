@@ -105,13 +105,13 @@ void File::printMapOfWords() {
         std::cout << "Map is empty!" << std::endl;
     }
 
-    cout << "Most common words: \n";
+    cout << "Least common words: \n";
     for (const auto& entry : sortedMap) {
         if(entry.first > least) break;
         cout << entry.second << ": " << entry.first << endl;
     }
 
-    cout << "Least common words: \n";
+    cout << "Most common words: \n";
     for (auto e = sortedMap.rbegin(); e != sortedMap.rend(); ++e) {
         if(e->first < max) break;
         cout << e->second << ": " << e->first << endl;

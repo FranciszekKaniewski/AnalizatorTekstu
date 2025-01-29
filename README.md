@@ -7,7 +7,7 @@
     ```
 2. Navigate to the project directory:
     ```bash
-    cd ./DziennikSzkolnyPD
+    cd ./AnalizatorTekstu
     ```
 3. Build:
     ```bash

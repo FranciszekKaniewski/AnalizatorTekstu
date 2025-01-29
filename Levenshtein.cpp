@@ -41,18 +41,6 @@ int Levenshtein::getLevenshteinValue(std::string a, std::string b) {
     return d[m][n];
 }
 
-std::string Levenshtein::getCorrectWord(string a, map<string,int> map){
-
-    std::string x;
-
-    for (const auto& entry : map) {
-        x = entry.first;
-        std::cout << entry.first << " : " << Levenshtein::getLevenshteinValue("Kotek",entry.first) << " | ";
-    }
-
-    return x;
-}
-
 void Levenshtein::fn(map<std::string, int> map) {
     vector<std::string> v;
     std::string sen, lowWord;

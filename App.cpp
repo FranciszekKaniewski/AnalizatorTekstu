@@ -50,9 +50,8 @@ void App::handleEvents() {
         case 'n':
             file->printMapOfCharacters();
             break;
-        case 'o':
+        case 'f':
             Levenshtein::fn(file->getMapOfWords());
-//            Levenshtein::getCorrectWord("Kotek",file->getMapOfWords());
             break;
         default:
             cout<<"No action for your character: "<< c << " :( \n";
